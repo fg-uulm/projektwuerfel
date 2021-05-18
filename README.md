@@ -1,4 +1,4 @@
-# progn
+# Projektwuerfel
 
 ## Project setup
 ```

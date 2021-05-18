@@ -1,6 +1,6 @@
 <template>
   <div v-on:click="spin()">
-      <FlipTextLabel :text="word" :chance=".1" :time="50"/>
+      <FlipTextLabel :text="word" :chance=".1" :time="40"/>
   </div>
 </template>
 
@@ -43,12 +43,16 @@ export default {
 <style scoped>
     div {
         font-size: 24pt;
+        font-family:'Courier New', Courier, monospace;
+        font-weight: 800;
         display:inline-block;
         margin:30px;
         border:2px solid lightblue;
         border-radius: 15px;
         padding: 10px;
         text-transform: uppercase;
+        cursor: pointer;
+        min-width: 5em;
     }
 
 </style>
